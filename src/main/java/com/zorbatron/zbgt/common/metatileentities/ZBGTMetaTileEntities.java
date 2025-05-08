@@ -49,7 +49,6 @@ public class ZBGTMetaTileEntities {
     public static MTECircuitAssemblyLine CAL;
 
     public static MTEQueebf QUAD_EBF;
-    public static MTEQueezer QUEEZER;
     public static MTEQuacker QUACKER;
 
     public static MTEYOTTank YOTTANK;
@@ -160,8 +159,6 @@ public class ZBGTMetaTileEntities {
 
         QUAD_EBF = registerMetaTileEntity(18057,
                 new MTEQueebf(zbgtId("quad_ebf")));
-        QUEEZER = registerMetaTileEntity(18058,
-                new MTEQueezer(zbgtId("queezer")));
 
         YOTTANK = registerMetaTileEntity(18059,
                 new MTEYOTTank(zbgtId("yottank")));
